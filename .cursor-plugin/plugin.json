@@ -1,0 +1,31 @@
+{
+  "name": "mcp-ticketmaster-event-prices",
+  "displayName": "Ticketmaster Event Prices",
+  "version": "1.0.0",
+  "description": "MCP server for Ticketmaster Event Prices. Ticketmaster events with price ranges on your own Discovery API key. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-ticketmaster-event-prices",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "ticketmaster",
+    "event prices",
+    "concert tickets",
+    "ticket price range",
+    "discovery api"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ticketmaster",
+    "event prices",
+    "concert tickets",
+    "ticket price range",
+    "discovery api"
+  ],
+  "mcpServers": ".mcp.json"
+}

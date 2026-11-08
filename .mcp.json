@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-ticketmaster-event-prices": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-ticketmaster-event-prices"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-ticketmaster-event-prices",
+  "version": "1.0.0",
+  "description": "MCP server for Ticketmaster Event Prices. Ticketmaster events with price ranges on your own Discovery API key. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-ticketmaster-event-prices": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ticketmaster",
+    "event prices",
+    "concert tickets",
+    "ticket price range",
+    "discovery api",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/ticketmaster-event-prices",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-ticketmaster-event-prices"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-ticketmaster-event-prices"
+}
